@@ -6,7 +6,7 @@
 /*   By: lballiot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/08 12:57:42 by lballiot          #+#    #+#             */
-/*   Updated: 2017/11/08 15:18:02 by lballiot         ###   ########.fr       */
+/*   Updated: 2017/11/08 15:20:17 by lballiot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,4 @@ char	*ft_strdup(char *src)
 		cpy[i + 1] = '\0';
 	}
 	return (cpy);
-}
-
-#include <stdio.h>
-
-int main(int ac, char **av)
-{
-	(void)ac;
-	printf("fct : %s\n", ft_strdup(av[1]));
-	printf("rel : %s\n", strdup(av[1]));
-	return (0);
 }
