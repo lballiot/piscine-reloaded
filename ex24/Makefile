@@ -23,7 +23,7 @@ $(NAME) :
 	ar rc $(NAME) $(OBJ)
 
 clean :
-	/bin/rm -f *.o
+	/bin/rm -f $(OBJ)
 
 fclean : clean
 	/bin/rm -f $(NAME)
