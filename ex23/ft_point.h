@@ -1,60 +1,17 @@
-# 1 "main.c"
-# 1 "<built-in>" 1
-# 1 "<built-in>" 3
-# 329 "<built-in>" 3
-# 1 "<command line>" 1
-# 1 "<built-in>" 2
-# 1 "main.c" 2
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_point.h                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lballiot <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/11/09 08:35:31 by lballiot          #+#    #+#             */
+/*   Updated: 2017/11/09 08:36:21 by lballiot         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-
-
-
-
-
-
-
-
-
-
-
-
-# 1 "./ft_point.h" 1
-# 1 "main.c"
-# 1 "<built-in>" 1
-# 1 "<built-in>" 3
-# 329 "<built-in>" 3
-# 1 "<command line>" 1
-# 1 "<built-in>" 2
-# 1 "main.c" 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 1 "./ft_point.h" 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ifndef FT_POINT_H
+# define FT_POINT_H
 
 typedef	struct		s_point
 {
@@ -62,32 +19,4 @@ typedef	struct		s_point
 	int y;
 }					t_point;
 
-
-
-# 14 "main.c" 2
-void set_point(t_point *point)
-{
-	point->x = 42;
-	point->y = 21;
-}
-int main(void)
-{
-	t_point point;
-	set_point(&point);
-	return (0);
-}
-
-
-# 14 "main.c" 2
-void set_point(t_point *point)
-{
-	point->x = 42;
-	point->y = 21;
-}
-int main(void)
-{
-	t_point point;
-	set_point(&point);
-	return (0);
-}
-
+#endif
