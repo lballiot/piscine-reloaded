@@ -16,7 +16,7 @@ int		main(int ac, char ** av)
 	{
 	int fd;
 	char *buf;
-		if(fd = open (av[1], O_RDONLY))
+		if((fd = open (av[1], O_RDONLY)))
 			while (read(fd, &buf, 1) > 0)
 				write(1, &buf, 1);
 	}
