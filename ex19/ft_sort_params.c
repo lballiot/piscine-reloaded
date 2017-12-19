@@ -6,14 +6,9 @@
 /*   By: lballiot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/07 13:36:06 by lballiot          #+#    #+#             */
-/*   Updated: 2017/11/08 12:52:18 by lballiot         ###   ########.fr       */
+/*   Updated: 2017/12/19 10:12:03 by lballiot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
 
 void	ft_putstr(char *str)
 {

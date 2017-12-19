@@ -6,11 +6,9 @@
 /*   By: lballiot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/06 17:23:03 by lballiot          #+#    #+#             */
-/*   Updated: 2017/11/06 17:52:10 by lballiot         ###   ########.fr       */
+/*   Updated: 2017/12/19 10:10:58 by lballiot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-void	ft_putchar(char c);
 
 void	ft_is_negative(int n)
 {
